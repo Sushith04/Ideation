@@ -7,6 +7,7 @@
   <title>Bootstrap</title>
   <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="shortcut icon" href="assets/images/logosmall.png" />
@@ -37,7 +38,7 @@
           </li>
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-          <span class="mdi mdi-menu"></a></span>
+          <span class="mdi mdi-menu"></span>
         </button>
       </div>
     </nav>
@@ -169,7 +170,7 @@
                 Bootstrap is a web framework that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers.
               </p>
               <div class="d-flex flex-column flex-md-row">
-                <a href="pages/ui-features/buttons.html" class="btn btn-lg btn-outline-primary mb-3 mr-md-3" id="white">Get started</a>
+                <a href="pages/ui-features/buttons.html" class="btn btn-lg btn-outline-primary mb-3 mr-md-3">Get started</a>
                 <a href="https://github.com/twbs/bootstrap/releases/download/v4.5.0/bootstrap-4.5.0-dist.zip" class="btn btn-lg btn-outline-secondary mb-3">Download</a>
               </div>
               <p class="text-muted mb-0">
@@ -185,9 +186,7 @@
                   </h4>
                   <h5 class="mb-4">Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</h5>
                   <h6 class="card-text">
-                    <figure>
                       <pre># Via npm<br>npm install bootstrap<br><br># Via gem<br>gem install bootstrap -v 4.5.0</pre>
-                    </figure>
                   </h6>
                 </div>
               </div>
@@ -199,15 +198,13 @@
                   </h4>
                   <h5 class="mb-3">When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</h5>
                   <h6 class="card-text">
-                    <figure>
-                      <pre><code class="language-html" data-lang="html"><span>&lt;!-- CSS only --&gt;</span>
+                      <pre><span>&lt;!-- CSS only --&gt;</span>
  <span>&lt;link</span> <span>rel=</span><span>"stylesheet"</span> <span>href=</span><span>"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"</span> <span>integrity=</span><span>"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;</span>
 
 <span>&lt;!-- JS, Popper.js, and jQuery --&gt;</span>
 <span>&lt;script </span><span>src=</span><span>"https://code.jquery.com/jquery-3.5.1.slim.min.js"</span> <span>integrity=</span><span>"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span>
 <span>&lt;script </span><span>src=</span><span>"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span> <span>integrity=</span><span>"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span>
-<span>&lt;script </span><span>src=</span><span>"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"</span> <span>integrity=</span><span>"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span></code></pre>
-                    </figure>
+<span>&lt;script </span><span>src=</span><span>"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"</span> <span>integrity=</span><span>"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"</span> <span>crossorigin=</span><span>"anonymous"</span><span>&gt;&lt;/script&gt;</span></pre>
                   </h6>
                 </div>
               </div>
@@ -219,9 +216,7 @@
                   </h4>
                   <h5 class="mb-5">For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h5>
                   <h6 class="card-text">
-                    <figure>
                       <pre>npm install bootstrap-icons</pre>
-                    </figure>
                   </h6>
                 </div>
               </div>
